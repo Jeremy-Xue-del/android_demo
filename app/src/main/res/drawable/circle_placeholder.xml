@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 外层圆形边框 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#CCCCCC" />
+        </shape>
+    </item>
+    <!-- 内层圆形，创建边框效果 -->
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape android:shape="oval">
+            <solid android:color="#EEEEEE" />
+        </shape>
+    </item>
+</layer-list>
